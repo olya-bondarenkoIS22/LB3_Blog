@@ -6,6 +6,8 @@ namespace LB3_Blog.Models;
 
 public partial class BlogContext : DbContext
 {
+    internal object dataGridViewPosts;
+
     public BlogContext()
     {
     }
